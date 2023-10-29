@@ -1,0 +1,221 @@
+/* -----font poppins---------- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@500&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.text-light-gray {
+    color: #727272;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 20px;
+    background: #FF900E;
+    padding: 20px 25px;
+    border: 0;
+}
+
+.section-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+
+/* ----------header style---------- */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/* ----banner styles------- */
+.banner-content {
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-size: 64px;
+    font-weight: 700;
+    color: #131313;
+}
+
+.banner img {
+    margin-top: 40px;
+    width: 100%;
+}
+
+/*--------------
+   main style 
+  -------------*/
+main {
+    max-width: 1440px;
+    /* width: 100%; */
+    margin: 70px auto;
+}
+
+/* teams styles */
+.teams-container {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.teams-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+
+.teams-title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.teams-title .quick-list {
+    font-weight: 500;
+    color: var(--Dark-03, #727272);
+}
+
+.teams-title .teams-features {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+/* feature section styles */
+.Features {
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+}
+
+.Features .section-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.Features-content .card {
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.feature-img img {
+    height: 90%;
+    margin-left: 90px;
+}
+
+.tan-years-badge {
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 310px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    right: 50px;
+}
+
+.tan-years-badge h2 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.tan-years-badge p {
+    font-size: 30px;
+    margin: 0;
+}
+
+/* facts section */
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.facts-card-container .card {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+}
+
+.facts-card-container .card-title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.facts-card-container .card-stats {
+    font-size: 45px;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* ----------------
+   sponsors style
+   ----------------*/
+.Sponspors {
+    text-align: center;
+}
+
+.Sponspors-img-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+}
+
+.Sponspors-img-container img {
+    width: 165px;
+}
+
+/* ---footer style---- */
+.footer {
+    width: 1150px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    margin: 100px 100px;
+}
+
+.footer-title {
+    color: var(--Dark-02, #424242);
+    font-size: 20px;
+    text-align: center;
+}
